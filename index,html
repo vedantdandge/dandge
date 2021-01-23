@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>
+        my first webpage
+    </title>
+</head>
+<body>
+<h1>this is my first webpage</h1>
+</body>
+<script>
+var firstname="Vedant";
+var lastname="Dandge";
+var fullname=firstname.concat(lastname);
+console.log(fullname);
+var length_of_full_name= fullname.length;
+console.log(length_of_full_name);
+name_one="my name is vedant";
+var replace_name= name_one.replace("vedant","dandge");
+console.log(replace_name)
+var square_root=Math.sqrt(16);
+console.log(square_root);
+</script>
+</html>
